@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+
+body{ 
+    
+    margin: 10px;
+    padding: 10px;
+    background-color:wheat;
+    
+    border: 2px solid red;
+}
+h1{
+    color: aqua;
+}
+
+body >header> h1{
+    border-radius: 20px;
+    font-family: "Jomhuria", sans-serif;
+    font-size: 50px;
+    background-color: black;
+    text-align: center;
+}
+.container{
+    margin-left: 10px;
+    background-color: aqua;
+    color:brown
+}
+address{
+    text-align: center;
+}

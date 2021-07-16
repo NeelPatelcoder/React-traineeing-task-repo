@@ -1,0 +1,15 @@
+element tag ne only that name and op/cl {}
+
+body h1{
+    color: blue;
+}
+
+aama body ma jetal h1 aave tena j color bule hase bali nana to je css aapi hoy te j re.
+
+-----------
+
+id ne style aapvamate  #id_name symbol ne use karvano 
+class mate .class_name 
+
+display: inline-block; =>>>> aama inline ma set thai jase jene jetali jagya joiye tetali.
+

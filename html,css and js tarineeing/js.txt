@@ -1,0 +1,71 @@
+alaret("this is alert display");
+
+document.write("this is showing in display");
+
+var Age=28;
+var        welcome_message=("This is string");
+
+^keyword   ^ data_type        ^value or display message
+
+consol.log(welcome_message+Age);
+
+
+boolean mate
+
+var box = true;    [Assign mate single =]
+
+box == true;
+
+output:
+true
+
+
+comparision  boolean:
+
+7>5
+true
+
+7!=7
+false
+
+if statment:
+
+var isPrimiumUser = true;
+
+if(isPrimiumUser == true)
+{
+	consol.log("Thanks for being a loyal customer");
+}
+else
+{
+ consol.log ("This is false statment");
+}
+
+
+for(var i=0;i<10;i++){
+consol.log("hi")
+}
+
+
+switch case:
+while:
+do while:
+
+
+
+function:
+
+function function_name(argument jetala aapva hoy tetala){    <------- function create
+consol.log("my name is neel", argument.)
+}
+
+function_name(argument upper jetala aapya hoi tetala j aapvana);             <--- function call.
+
+
+
+
+
+
+
+
+

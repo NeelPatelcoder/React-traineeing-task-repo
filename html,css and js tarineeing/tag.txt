@@ -1,0 +1,96 @@
+all are inline element
+
+div=>> aakhi laine usekare, div ma space na aave ane paragraph  ma aave. div is block element.
+span=>>jetala ma text hoy tetaluj use kare.
+
+i =>> italic
+b=>> bold
+p =>> paragraph
+a=>> ancher tag to link.
+
+ul=>> unorder list
+li=>> list element
+ol=>> order list
+
+header=>> heading mate aa tag vaprvano
+footer=>> footer mate aa tag vaprvano
+
+section=>>
+main=>> inside main contaent area div,p,artical etc...
+artical=>> it is used when to write artical. it's a like div.
+br=>> brak the line
+<br /> =>> space mate
+
+
+h1 to h6 =>> heaDING TAG.
+aside=>> text area use thay pasi teni bajuma pan bija tag text use kari sake.
+
+
+
+-------------------------
+
+table tage
+
+tr=>> data of row or collumn
+th=>> title of each collumn
+table=>> it is creat look like table
+thead =>> heading of table
+
+tbody =>> input data.
+td=>> table data
+
+-----------
+
+image
+
+img=>> to display img
+
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+---------------------
+
+select=>> dropdown mate
+option =>> select na option mate.
+
+
+<meta name="Keyword" content="aa ma je kai keyword lakhiye te user sathe match thay to aapdu page temane dekhade.">
+<meta name="author" content="website nu name lakhiye to pan chale or c0 name etc">
+
+responsive design mate important -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+ 
