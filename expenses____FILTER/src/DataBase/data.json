@@ -1,5 +1,4 @@
-{
-  "users": [
+[
     {
       "id": 1,
       "name": "Neel",
@@ -13,7 +12,19 @@
       "item": "Light Bill",
       "date": "21-06-2020",
       "expense": 123
+    },
+    {
+      "name": "Nirmal",
+      "item": "car",
+      "date": "23-09-2020",
+      "expense": "2200",
+      "id": 3
+    },
+    {
+      "name": "lux",
+      "item": "shop",
+      "date": "22-1-2020",
+      "expense": "20",
+      "id": 4
     }
-    
   ]
-}

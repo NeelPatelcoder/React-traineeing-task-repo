@@ -8,6 +8,8 @@ import AddExpenses from './components/AddExpenses';
 
 function App() {
   return (
+    <>
+    
     <BrowserRouter>
 
       <NavBar />
@@ -19,7 +21,7 @@ function App() {
         
       </Switch>
     </BrowserRouter>
-
+    </>
   );
 }
 
