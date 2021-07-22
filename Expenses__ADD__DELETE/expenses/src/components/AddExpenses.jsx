@@ -2,9 +2,7 @@ import {FormGroup,FormControl,InputLabel,Input,Button,Typography} from "@materia
 import './AddExpenses.css';
 import { useState } from "react";
 import {addData} from '../Services/Api';
-import {useHistory} from 'react-router-dom';
-import items from '../DataBase/data.json';
-
+import {useHistory} from 'react-router-dom'
 
 const initialValues = {
     name: '',
@@ -29,10 +27,8 @@ const AddExpenses = () =>{
      )
  }
 
-
- // post data 
  const addDatauser = async () =>{
-     await addData(items);
+     await addData(user);
      history.push('./');
  }
 
