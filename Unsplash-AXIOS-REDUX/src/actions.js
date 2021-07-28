@@ -1,3 +1,4 @@
+import axios from "axios";
 
 
 export const GET_PHOTOS = 'GET_PHOTOS';
@@ -19,9 +20,10 @@ export const loadingFinished = makeActionCreator(LOADING_FINISHED);
 
 export const searchPhotos = (query) => {
   return(dispatch,getState)=>{
-    fetch(`https://api.unsplash.com/search/photos/?query=${query}&per_page=30&orientation=squarish&client_id=USM9XwEpUhPCdZGpfYPMlRKn2WhSLqPVSHzushqRXdA`)
-    .then(response => response.json())
-    .then(json => {
+    axios.get(`https://api.unsplash.com/search/photos/?query=${query}&per_page=30&orientation=squarish&client_id=USM9XwEpUhPCdZGpfYPMlRKn2WhSLqPVSHzushqRXdA`)
+    // .then(response => response.json())
+    .then(response => {
+      const json = response.data
       console.log(json);
       dispatch(getPhotos(json.results))
       dispatch(loadingFinished())

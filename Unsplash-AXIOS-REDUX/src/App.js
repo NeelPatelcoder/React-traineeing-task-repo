@@ -7,15 +7,15 @@ import { getPhotos, loadingFinished, searchPhotos } from './actions';
 
 
 class App extends Component {
-  componentDidMount = () => {
-    fetch(`https://api.unsplash.com/photos/?per_page=20&orientation=squarish&client_id=USM9XwEpUhPCdZGpfYPMlRKn2WhSLqPVSHzushqRXdA`)
-      .then(response => response.json())
-      .then(json => {
-        console.log(json);
-        this.props.getPhotosAsProp(json)
-        this.props.loadingFinishedAsProp()
-      })
-  }
+  // componentDidMount = () => {
+  //   fetch(`https://api.unsplash.com/photos/?per_page=20&orientation=squarish&client_id=USM9XwEpUhPCdZGpfYPMlRKn2WhSLqPVSHzushqRXdA`)
+  //     .then(response => response.json())
+  //     .then(json => {
+  //       console.log(json);
+  //       this.props.getPhotosAsProp(json)
+  //       this.props.loadingFinishedAsProp()
+  //     })
+  // }
   handleSubmit(event) {
     event.preventDefault();
     const whatWasTyped = this.text.value;
